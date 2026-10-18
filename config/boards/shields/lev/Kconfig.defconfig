@@ -1,22 +1,12 @@
-if SHIELD_LEV_LEFT
+if SHIELD_LEV_LEFT || SHIELD_LEV_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "lev"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_LEV_LEFT || SHIELD_LEV_RIGHT
 
 config ZMK_SPLIT
     default y
 
 config EC11
-    default y
-
-config EC11_TRIGGER_GLOBAL_THREAD
     default y
 
 endif
