@@ -21,6 +21,8 @@
 include:
   - board: nice_nano//zmk
     shield: lev_left
+    artifact-name: lev_left
 
   - board: nice_nano//zmk
     shield: lev_right
+    artifact-name: lev_right
