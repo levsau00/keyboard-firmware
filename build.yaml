@@ -19,7 +19,8 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: board1_left
-  - board: nice_nano_v2
-    shield: board2_right
+  - board: nice_nano//zmk
+    shield: lev_left
+
+  - board: nice_nano//zmk
+    shield: lev_right
